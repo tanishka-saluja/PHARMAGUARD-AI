@@ -1,0 +1,33 @@
+{
+  "updatedAt": "2026-02-13T00:00:00.000Z",
+  "posts": [
+    {
+      "id": "emergency-recall-001",
+      "title": "Emergency Alert: Suspected Counterfeit Batch in Circulation",
+      "summary": "Do not consume batch PG-2026-991 until regulator verification is complete.",
+      "details": [
+        "Field teams detected packaging mismatch and invalid QR responses.",
+        "Hospitals and pharmacies should isolate remaining stock immediately.",
+        "Patients should contact local health officials before continuing dosage from this batch."
+      ],
+      "action": "Verify batch number in PharmaGuard and report suspicious strips immediately.",
+      "emergency": true,
+      "tags": ["recall", "batch-alert", "urgent"],
+      "publishedAt": "2026-02-13T00:00:00.000Z"
+    },
+    {
+      "id": "awareness-antibiotic-001",
+      "title": "Why Substandard Antibiotics Are a Public Health Risk",
+      "summary": "Low-potency antibiotics can increase treatment failure and resistance.",
+      "details": [
+        "Counterfeit antibiotics may have incorrect active ingredient concentration.",
+        "This can increase resistant infections and treatment costs.",
+        "Early reporting helps regulators stop spread quickly."
+      ],
+      "action": "Buy only from traceable sources and retain invoice + packaging evidence.",
+      "emergency": false,
+      "tags": ["awareness", "antibiotic", "public-health"],
+      "publishedAt": "2026-02-10T12:00:00.000Z"
+    }
+  ]
+}

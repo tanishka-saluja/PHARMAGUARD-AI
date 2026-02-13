@@ -220,3 +220,62 @@ Polygon docs currently note that zkEVM network is sunsetting in 2026. For produc
 - Replace simulated identity nullifier flow with integrated OVSE-compliant verifier gateway
 - Add SIEM integration and CERT-In incident automation playbooks
 - Add external key custody/multisig policy integration for regulator operations
+
+## Repository Tree
+
+```text
+PHARMAGUARD-AI/
+├── .env.example
+├── .gitignore
+├── README.md
+├── hardhat.config.js
+├── package.json
+├── package-lock.json
+├── download.jpeg
+├── contracts/
+│   └── PharmaBatchNFT.sol
+├── scripts/
+│   ├── deploy.js
+│   ├── mint.js
+│   ├── report.js
+│   ├── resolve.js
+│   ├── quarantine.js
+│   └── submitQueuedReports.js
+├── test/
+│   └── Lock.js
+├── ai-service/
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── risk_engine.py
+│   └── federated_aggregator.py
+├── awareness-feed/
+│   ├── server.js
+│   └── feed.json
+├── docs/
+│   ├── PRODUCTION_PLAN_INDIA.md
+│   ├── RESEARCH_AND_REGULATION_MAP.md
+│   ├── SECURITY_AND_MISUSE_MODEL.md
+│   └── AWARENESS_FEED_API.md
+├── ignition/
+│   └── modules/
+│       └── Lock.js
+└── mobile-app/
+    ├── .gitignore
+    ├── App.js
+    ├── app.json
+    ├── index.js
+    ├── metro.config.js
+    ├── package.json
+    ├── package-lock.json
+    ├── assets/
+    │   ├── adaptive-icon.png
+    │   ├── favicon.png
+    │   ├── icon.png
+    │   └── splash-icon.png
+    ├── content/
+    │   └── awarenessPosts.js
+    ├── services/
+    │   └── mobileNetService.js
+    └── shims/
+        └── react-native-fs.js
+```

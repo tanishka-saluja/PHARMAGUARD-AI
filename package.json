@@ -1,0 +1,45 @@
+{
+  "name": "my-pharma-project",
+  "version": "1.0.0",
+  "description": "PharmaGuard government-grade counterfeit medicine prevention stack",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:amoy": "hardhat run scripts/deploy.js --network amoy",
+    "deploy:polygon": "hardhat run scripts/deploy.js --network polygon",
+    "mint:amoy": "hardhat run scripts/mint.js --network amoy",
+    "report:amoy": "hardhat run scripts/report.js --network amoy",
+    "resolve:amoy": "hardhat run scripts/resolve.js --network amoy",
+    "quarantine:amoy": "hardhat run scripts/quarantine.js --network amoy",
+    "awareness:server": "node awareness-feed/server.js",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "mint:sepolia": "hardhat run scripts/mint.js --network sepolia",
+    "report:sepolia": "hardhat run scripts/report.js --network sepolia",
+    "resolve:sepolia": "hardhat run scripts/resolve.js --network sepolia",
+    "quarantine:sepolia": "hardhat run scripts/quarantine.js --network sepolia"
+  },
+  "keywords": [
+    "pharma",
+    "counterfeit-detection",
+    "blockchain",
+    "india",
+    "government"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.28.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "@walletconnect/ethereum-provider": "^2.23.5",
+    "@walletconnect/modal": "^2.7.0",
+    "ethers": "^6.16.0",
+    "expo-barcode-scanner": "^13.0.1",
+    "expo-camera": "^17.0.10"
+  }
+}

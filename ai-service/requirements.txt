@@ -1,0 +1,5 @@
+numpy>=1.26.0
+opencv-python>=4.9.0
+onnxruntime>=1.18.0
+pytesseract>=0.3.10
+pyzbar>=0.1.9
